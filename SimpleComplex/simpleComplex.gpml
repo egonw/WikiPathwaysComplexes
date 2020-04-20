@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Simple Complex" Version="20200420" Organism="Homo sapiens">
+  <Graphics BoardWidth="416.9049709435971" BoardHeight="169.39075630252088" />
+  <DataNode TextLabel="a" GraphId="e8ba5" Type="GeneProduct" GroupRef="da37d">
+    <Graphics CenterX="231.17647058823525" CenterY="101.89075630252091" Width="62.85714285714283" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="1" />
+  </DataNode>
+  <DataNode TextLabel="b" GraphId="def27" Type="GeneProduct" GroupRef="da37d">
+    <Graphics CenterX="231.17647058823525" CenterY="126.89075630252088" Width="62.85714285714283" Height="25.0" ZOrder="32769" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="2" />
+  </DataNode>
+  <DataNode TextLabel="y" GraphId="f7a66" Type="GeneProduct">
+    <Graphics CenterX="355.4763995150257" CenterY="114.40465738534178" Width="62.85714285714283" Height="25.0" ZOrder="32770" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="4" />
+  </DataNode>
+  <DataNode TextLabel="x" GraphId="f9484" Type="GeneProduct">
+    <Graphics CenterX="98.42405618964005" CenterY="114.40465738534178" Width="62.85714285714283" Height="25.0" ZOrder="32771" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="3" />
+  </DataNode>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="129.85262761821147" Y="114.40465738534178" GraphRef="f9484" RelX="1.0" RelY="0.0" />
+      <Point X="187.7478991596638" Y="114.3907563025209" GraphRef="a6f75" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="274.6050420168067" Y="114.3907563025209" GraphRef="a6f75" RelX="1.0" RelY="0.0" />
+      <Point X="324.0478280864543" Y="114.40465738534178" GraphRef="f7a66" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Group GroupId="da37d" GraphId="a6f75" Style="Complex" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+
