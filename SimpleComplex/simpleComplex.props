@@ -1,0 +1,4 @@
+dataNodeCount = 5
+interactionCount = 3
+binding = a,b
+downstream = y,x
