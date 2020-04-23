@@ -2,7 +2,7 @@
 
 Reference drawings of complexes in [WikiPathways](https://wikipathways.org/) and matching
 expectations of biological interactions to be captured in the resulting RDF. The approach
-is modelled after [work by Ryan Miller et al.](https://github.com/RyAMiller/WikiPathwaysInteractions)
+is modelled after [work by Ryan Miller et al.](https://github.com/BiGCAT-UM/WikiPathwaysInteractions)
 and based on countless discussions in the BiGCaT research group (involving at least Ryan, Chris,
 Denise, and Tina).
 
